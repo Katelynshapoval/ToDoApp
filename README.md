@@ -6,9 +6,9 @@ This repository contains a ToDo App built using React. The app allows users to a
 
 - [Introduction](#introduction)
 - [Features](#features)
-- - [Displaying ToDo Plans](#displaying-todo-plans)
-- - [Adding ToDo Plans](#adding-todo-plans)
-- - [Editing and Deleting ToDo Plans](#editing-and-deleting-todo-plans)
+  - [Displaying ToDo Plans](#displaying-todo-plans)
+  - [Adding ToDo Plans](#adding-todo-plans)
+  - [Editing and Deleting ToDo Plans](#editing-and-deleting-todo-plans)
 - [Usage](#usage)
 - [Code Explanation](#code-explanation)
 - [Backend Server](#backend-server)
