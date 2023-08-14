@@ -1,4 +1,61 @@
-# Getting Started with Create React App
+# ToDo App using React
+
+This repository contains a ToDo App built using React. The app allows users to add, edit, and delete ToDo plans. It interacts with a backend server to manage the ToDo plans.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- - [Displaying ToDo Plans](#displaying-todo-plans)
+- - [Adding ToDo Plans](#adding-todo-plans)
+- - [Editing and Deleting ToDo Plans](#editing-and-deleting-todo-plans)
+- [Usage](#usage)
+- [Code Explanation](#code-explanation)
+- [Backend Server](#backend-server)
+- [Getting Started with Create React App](#getting-started-with-create-react-app)
+
+## Introduction
+
+The "ToDo App using React" project demonstrates the creation of a ToDo application using the React framework. The app communicates with a backend server to perform CRUD (Create, Read, Update, Delete) operations on ToDo plans. Users can view, add, edit, and delete plans within the application.
+
+## Features
+
+### Displaying ToDo Plans
+
+The app fetches ToDo plans from the backend server when loaded. The fetched plans are displayed using the `DisplayTodos` component.
+
+### Adding ToDo Plans
+
+Users can add new ToDo plans using the `AddToDo` component. The plans are sent to the backend server for storage.
+
+### Editing and Deleting ToDo Plans
+
+Users can edit and delete existing ToDo plans. The `editItem` function allows users to edit plans, and the `deleteItem` function allows users to delete plans. Changes are reflected on the backend server.
+
+## Usage
+
+1. Ensure that you have the necessary dependencies installed.
+2. Open the terminal and navigate to the project directory.
+3. Run the application using the command: `npm start`.
+4. The app will be accessible at `http://localhost:3000`.
+
+## Code Explanation
+
+The provided React code showcases how to create a ToDo app using React components and state management. Key functions include:
+
+- Fetching ToDo plans from the backend using the `fetch` API.
+- Adding new plans using the `addItem` function.
+- Editing existing plans using the `editItem` function.
+- Deleting plans using the `deleteItem` function.
+
+The app is structured with components like `AddToDo` for adding plans and `DisplayTodos` for displaying plans. The `useState` and `useEffect` hooks are used for state management and fetching data.
+
+## Backend Server
+
+The backend server for this ToDo app should include endpoints for performing CRUD operations on ToDo plans. The server should handle requests to fetch, add, edit, and delete plans. Ensure that the backend server is up and running before using the app.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
